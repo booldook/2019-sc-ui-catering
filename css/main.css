@@ -10,3 +10,11 @@
 
 /***** bans *****/
 
+/***** abouts *****/
+.abouts {margin-top: 100px;}
+.about_img {width: 50%; float: left; padding: 1%;}
+.about_conts {width: 50%; float: right; padding: 1%;}
+.about_conts > h1 {text-align: center; padding: 20px 10px;}
+.about_conts > h4 {text-align: center; padding: 10px;}
+.about_conts > .p1 {padding: 10px;}
+.about_conts > .p2 {color: #999; padding: 10px;}
