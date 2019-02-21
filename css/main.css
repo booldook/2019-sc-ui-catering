@@ -1,5 +1,6 @@
 /***** tops *****/
-.tops {padding: 8px 16px; box-shadow:0 4px 8px rgba(0,0,0,0.3); }
+.tops {padding: 8px 16px; box-shadow:0 4px 8px rgba(0,0,0,0.3); 
+	width: 100%; position: fixed; background-color: rgba(255,255,255, 0.7);}
 /* box-shadow: 좌우 상하 퍼짐정도 컬러 */
 .logo {float: left; padding: 10px; letter-spacing: 4px; cursor: pointer;}
 .navs {float: right;}
