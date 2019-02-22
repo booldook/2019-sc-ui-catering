@@ -1,6 +1,6 @@
-.wrap {border: 10px solid #00f; width:100%; max-width:800px; margin:20px auto;}
-.box {border: 10px solid #999; margin:auto;}
-.wrap > :nth-child(1) {background-color: antiquewhite; width: 100px; height: 100px;}
-.wrap > :nth-child(2) {background-color: brown; width: 200px; height: 200px;}
-.wrap > :nth-child(3) {background-color: darkcyan; width: 300px; height: 300px;}
+.wrap {border: 10px solid #00f; width:100%; max-width:800px; margin:20px auto; }
+.box {border: 10px solid #999;}
+.box1 {background-color: antiquewhite; width: 100px; height: 100px; position: relative;}
+.box2 {background-color: brown; width: 200px; height: 200px; position: relative;}
+.box3 {background-color: darkcyan; width: 300px; height: 300px; position: absolute; top:0; left:0;}
 
