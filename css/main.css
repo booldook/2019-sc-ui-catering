@@ -11,7 +11,7 @@
 /***** bans *****/
 
 /***** abouts *****/
-.abouts {margin-top: 100px;}
+.abouts {margin: 100px auto; width: 100%; max-width: 1200px;}
 .about_img {width: 50%; float: left; padding: 1%;}
 .about_conts {width: 50%; float: right; padding: 1%;}
 .about_conts > h1 {text-align: center; padding: 20px 10px;}

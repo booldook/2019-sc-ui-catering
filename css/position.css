@@ -1,0 +1,23 @@
+/* 
+선택자(Selector) 
+	
+1. 같은 명령이 중복됐을때 우선순위 
+id(#) > class(.) > tag
+		
+예시)
+div {color: #333;} 
+div > div {color: #333;}
+#box2 {color: #f00;}
+div.wrap > * {color: #0f0;}
+ul.wrap > * {color: #00f;}
+div.wrap > div {color: #333;}
+div.wrap > div.box {color: #333;}
+.wrap > #box2 {color: #333;}
+div.wrap > div.box#box2 {color: #333;}
+#box2 {color: #333;}
+*/
+
+html, body {font-size:36px;}
+
+#wrap1 > div {color: #f00;}
+.wrap > .box {color: #0f0;}
