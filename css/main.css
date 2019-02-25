@@ -1,3 +1,8 @@
+/*
+- float:left/right - clear:both
+- position:absoute/relative/fixed/static(기본값) - z-index:999;
+- width:100%; max-width:1200px; margin:auto;
+*/
 .wrap {width:100%; max-width:1400px; margin:auto;}
 /***** tops *****/
 .tops {padding: 8px 16px; box-shadow:0 4px 8px rgba(0,0,0,0.3); 
@@ -19,5 +24,5 @@
 .about_conts {width: 50%; float: right; padding: 1%;}
 .about_conts > h1 {text-align: center; padding: 20px 10px;}
 .about_conts > h4 {text-align: center; padding: 10px;}
-.about_conts > .p1 {padding: 10px;}
-.about_conts > .p2 {color: #999; padding: 10px;}
+.about_conts > .p1 {padding: 10px; font-size:18px; line-height: 180%;}
+.about_conts > .p2 {color: #999; padding: 10px; font-size:18px; line-height: 180%;}
