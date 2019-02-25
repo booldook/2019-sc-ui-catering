@@ -27,3 +27,10 @@
 .about_conts > h4 {text-align: center; padding: 10px;}
 .about_conts > .p1 {padding: 10px; font-size:18px; line-height: 180%;}
 .about_conts > .p2 {color: #999; padding: 10px; font-size:18px; line-height: 180%;}
+
+/***** menus *****/
+.menus {width: 100%; max-width: 1000px; margin: 100px auto;}
+.menu_conts {float: left; width: 50%; padding: 1%;}
+.menu_img {float: right; width: 50%; padding: 1%; opacity: 0.7;}
+.menu_img:hover {opacity: 1;}
+
