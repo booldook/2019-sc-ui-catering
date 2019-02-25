@@ -44,3 +44,4 @@
 .contacts > h1 {margin: 50px auto;}
 .contacts > p {margin:20px 0;}
 .contacts > :nth-child(3) {color: rgb(102, 133, 151);}
+.contacts input {display: block; width:100%; margin:16px 0; padding:12px 6px; border:none; border-bottom: 1px solid #ccc;}
