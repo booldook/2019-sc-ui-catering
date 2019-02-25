@@ -19,8 +19,9 @@
 .ban_tit {color:#555; font-size:300%; position: absolute; bottom:50px; left:50px;}
 
 /***** abouts *****/
-.abouts {margin: 100px auto; width: 100%; max-width: 1200px;}
-.about_img {width: 50%; float: left; padding: 1%;}
+.abouts {margin: 100px auto; width: 100%; max-width: 1000px;}
+.about_img {width: 50%; float: left; padding: 1%; opacity: 0.7;}
+.about_img:hover {opacity: 1;}
 .about_conts {width: 50%; float: right; padding: 1%;}
 .about_conts > h1 {text-align: center; padding: 20px 10px;}
 .about_conts > h4 {text-align: center; padding: 10px;}
