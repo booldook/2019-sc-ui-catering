@@ -29,7 +29,7 @@
 .about_conts > .p2 {color: #999; padding: 10px; font-size:18px; line-height: 180%;}
 
 /***** menus *****/
-.menus {width: 100%; max-width: 1000px; margin: 100px auto;}
+.menus {width: 100%; max-width: 1000px; margin: 100px auto; border-bottom: 1px solid #ccc;}
 .menu_conts {float: left; width: 50%; padding: 1%;}
 .menu_conts > h1 {margin:50px 0;}
 .menu {margin-bottom:60px;}
@@ -38,3 +38,9 @@
 .menu_img {float: right; width: 50%; padding: 1%; opacity: 0.7;}
 .menu_img:hover {opacity: 1;}
 
+
+/***** contacts *****/
+.contacts {width: 100%; max-width: 1000px; margin: 100px auto;}
+.contacts > h1 {margin: 50px auto;}
+.contacts > p {margin:20px 0;}
+.contacts > :nth-child(3) {color: rgb(102, 133, 151);}
