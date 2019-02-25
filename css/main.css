@@ -32,8 +32,8 @@
 .menus {width: 100%; max-width: 1000px; margin: 100px auto;}
 .menu_conts {float: left; width: 50%; padding: 1%;}
 .menu_conts > h1 {margin:50px 0;}
-.menu {margin-bottom:30px;}
-.menu > h4 {margin-bottom:10px;}
+.menu {margin-bottom:60px;}
+.menu > h4 {margin-bottom:20px;}
 .menu > p {color:#999;}
 .menu_img {float: right; width: 50%; padding: 1%; opacity: 0.7;}
 .menu_img:hover {opacity: 1;}
